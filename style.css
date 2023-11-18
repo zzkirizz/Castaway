@@ -1,0 +1,504 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'DM Sans', sans-serif;
+	color-scheme: dark;
+}
+h1,
+h2 {
+	color: #fff;
+}
+/* Панель навигации */
+header {
+	max-width: 1440px;
+	height: 119px;
+	display: flex;
+	margin: 0 50px 0 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar ul {
+	display: flex;
+	gap: 40px;
+	list-style: none;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+}
+.navbar .color-link {
+	color: #118da8;
+}
+
+.navbar a:hover {
+	color: #118da8;
+}
+
+/* Секция 1 */
+
+.prolog {
+	margin: 40px 50px 0 50px;
+	display: flex;
+	gap: 60px;
+}
+/* правый текст */
+.first {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.first h1 {
+	color: #fff;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 88px; /* 125.714% */
+	letter-spacing: 3.2px;
+	width: 526px;
+}
+.next {
+	display: flex;
+}
+.next p {
+	display: flex;
+	position: relative;
+	color: #fff;
+	font-size: 75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 88px; /* 117.333% */
+	letter-spacing: 3.2px;
+}
+
+.next img {
+	background: transparent;
+	position: absolute;
+	left: 1px;
+}
+
+.first .next .level {
+	margin-left: 25px;
+	color: #fff;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 88px; /* 110% */
+	letter-spacing: 3.2px;
+}
+
+.logotypes {
+	margin-left: 10px;
+	margin-top: 74px;
+	margin-right: 18px;
+}
+
+.logotypes p {
+	/* margin-left: 10px; */
+	margin-bottom: 16px;
+	width: 66px;
+	color: #fff;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 160% */
+}
+
+.logo {
+	display: flex;
+	gap: 17px;
+}
+
+/* Сдвиги картинок */
+.Right {
+	position: relative;
+}
+
+.lineup {
+	top: -30px;
+	left: -30px;
+	position: absolute;
+	background: transparent;
+}
+
+.Jacob {
+	border-radius: 12px;
+}
+
+/* Секция 2 */
+
+.middle {
+	margin-top: 93px;
+	gap: 60px;
+}
+
+/* 2 Параграф */
+.paragraph2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+.btn {
+	background: #118da8;
+	width: 178px;
+	height: 51px;
+	color: #fff;
+	border-radius: 6px;
+	margin-right: 50px;
+	border: 1px solid #118da8;
+}
+
+.btn:hover {
+	background: #17b2d5;
+}
+
+.paragraph2 h2 {
+	margin-left: 50px;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 79.2px; /* 123.75% */
+	letter-spacing: 2.88px;
+}
+
+/*  Карточка 1 2 3*/
+
+.back {
+	border-radius: 32px;
+	background: #000;
+	width: 1440px;
+	margin: 0 auto;
+	height: 545px;
+	margin-top: 40px;
+}
+.card1 {
+	margin-left: 40px;
+	display: flex;
+	background: transparent;
+	gap: 53px;
+}
+
+.card1 img {
+	margin-top: 40px;
+}
+
+.gear {
+	margin: 40px 40px 40px 0;
+	display: flex;
+	flex-direction: column;
+}
+.gear .bord {
+	max-width: 73px;
+	border-radius: 6px;
+	background: #191919;
+	padding: 0 16px;
+}
+.gear > span {
+	margin-top: 49px;
+	color: #118da8;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+	margin-bottom: 18px;
+}
+
+.gear h2 {
+	color: #fff;
+	width: 701px;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 70.4px; /* 110% */
+	letter-spacing: 2.56px;
+}
+
+.gear p {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	width: 757px;
+	margin-top: 28px;
+}
+
+.card1_btn {
+	border-radius: 6px;
+	background: #118da8;
+	border: 1px solid #118da8;
+	max-width: 208px;
+	height: 51px;
+	margin-top: 30px;
+}
+
+.card1_btn:hover {
+	background: #17b2d5;
+}
+
+.Tips {
+	padding: 0 16px;
+	border-radius: 6px;
+	background: #191919;
+	max-width: 136px;
+	max-height: 27px;
+}
+
+/* Секция 3 */
+
+.downer {
+	display: flex;
+	justify-content: space-between;
+	margin: 260px 50px 0 50px;
+}
+
+/* Левая часть */
+.images {
+	margin-bottom: 20px;
+	width: 112px;
+	height: 112px;
+	border-radius: 400px;
+	background: #118da8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.images .Arrow {
+	display: inline-flex;
+	height: 64px;
+	padding: 13px 24px 13px 13px;
+	flex-shrink: 0;
+}
+
+.images .Arrow a:hover {
+	background: #17b2d5;
+	border-radius: 400px;
+}
+.Paulaner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Paulaner span {
+	color: #118da8;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.Paulaner h2 {
+	color: #fff;
+	font-size: 65px;
+	font-weight: 400;
+	line-height: 79.2px; /* 121.846% */
+	letter-spacing: 2.88px;
+	margin-bottom: 28px;
+}
+
+.Paulaner p {
+	width: 556px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 33px;
+	margin-bottom: 33px;
+}
+
+.jacob_photo {
+	width: 650px;
+	height: 743px;
+	flex-shrink: 0;
+	border-radius: 12px;
+}
+
+/* Секция 4 */
+
+.Login {
+	width: 1440px;
+	height: 340px;
+	background: #000;
+	border-radius: 32px;
+	margin: 0 auto;
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.line {
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 300px;
+}
+
+.Text {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.Text span {
+	margin-top: 50px;
+	margin-left: 50px;
+	color: #118da8;
+
+	font-size: 18px;
+
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.Text h2 {
+	width: 431px;
+	margin-left: 50px;
+	margin-top: 26px;
+	color: #fff;
+	font-size: 72px;
+	font-weight: 400;
+	line-height: 79.2px; /* 110% */
+	letter-spacing: 2.88px;
+}
+
+.login-form {
+	margin-top: 50px;
+	margin-right: 50px;
+	width: 522px;
+	height: 252px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+}
+
+.login-form input {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28.8px;
+	width: 522px;
+	height: 82px;
+	border-radius: 6px;
+	border: 1px solid #191919;
+	background: #191919;
+	padding: 10px;
+}
+
+.login-form button {
+	border: 1px solid #118da8;
+	border-radius: 6px;
+	background: #118da8;
+	width: 87px;
+	height: 48px;
+}
+
+.login-form button:hover {
+	background: #17b2d5;
+}
+
+/* Секция 5  */
+
+.cards {
+	margin: 200px 50px 0 50px;
+	display: flex;
+	gap: 70px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.first_card {
+	display: flex;
+	flex-direction: column;
+	border-radius: 32px;
+	background: #000;
+	width: 423px;
+	height: 321px;
+}
+
+.svg_stars {
+	margin: 50px 0 0 50px;
+}
+.first_card h2 {
+	margin-left: 50px;
+	width: 313px;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 43.2px;
+}
+
+.first_card p {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28.8px;
+	margin-left: 50px;
+	margin-top: 19px;
+}
+
+/* Низ. наконец-то */
+
+footer {
+	margin: 200px 50px 0 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 1400px;
+	height: 438px;
+	gap: 16px;
+}
+
+.Castaway {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+}
+.links {
+	display: flex;
+	gap: 16px;
+}
+.first_links {
+	display: flex;
+	width: 178.844px;
+	/* padding: 0px 103.984px 84.875px 0px; */
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	flex-shrink: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+.second_links {
+	display: flex;
+	/* width: 300px; */
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	flex-shrink: 0;
+}
+
+.music_logo {
+	display: flex;
+	align-items: flex-start;
+	gap: 17px;
+}
